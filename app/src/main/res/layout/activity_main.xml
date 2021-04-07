@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="Balok"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/et_panjang"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="panjang"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_lebar"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="lebar"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_tinggi"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="tinggi"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_hasil"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="Hitung Volume"
+            android:textAlignment="center"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/v_hasil"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="Kubus"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/k_sisi"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="panjang sisi"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+
+
+        <Button
+            android:id="@+id/btn_luask"
+            android:text="Hitung Volume"
+            android:textSize="8sp"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/v_luask"
+            android:text="0.0"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="Limas Segi 4"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/et_palas"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="panjang alas"
+            android:inputType="number"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/et_lalas"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="lebar alas"
+            android:inputType="number"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/et_talas"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="tinggi limas"
+            android:inputType="number"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/btn_luasl"
+            android:text="Hitung Volume"
+            android:textSize="8sp"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/v_luasl"
+            android:text="0.0"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="Tabung"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/et_jari"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="jari-jari alas"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_ttinggi"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:hint="tinggi tabung"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_luast"
+            android:text="Hitung Volume"
+            android:textSize="8sp"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/v_luast"
+            android:text="0.0"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
